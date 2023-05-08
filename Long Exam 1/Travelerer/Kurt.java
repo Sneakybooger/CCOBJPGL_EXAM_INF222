@@ -17,7 +17,8 @@ public class Kurt implements Tourist {
     public void visit(Boracay boracay) {
         fare = boracay.airFare;
         if(budget < fare){
-          System.out.println("\nCan't afford the airfare to Boracay");
+          System.out.println("\n**Can't afford the airfare to Boracay**");
+          System.out.println("____________________________________________");
           if(budget == 0){
             System.out.println("OUT OF FUNDS X_X");  
             System.exit(0);
@@ -25,15 +26,17 @@ public class Kurt implements Tourist {
         }else{
         System.out.println("Welcome to Boracay!");  
         visit();  
+        System.out.println("____________________________________________");
         }
-          
-        System.out.println("\nVisiting another place...");           
+        System.out.println("\nVisiting another place...");     
+        System.out.println("____________________________________________");      
     }
 
     public void visit(Palawan palawan) {
         fare = palawan.airFare; 
         if(budget < fare){
-            System.out.println("\nCan't afford the airfare to Palawan");
+            System.out.println("\n**Can't afford the airfare to Palawan**");
+            System.out.println("____________________________________________");
             if(budget == 0){
                 System.out.println("OUT OF FUNDS X_X");  
                 System.exit(0);
@@ -41,14 +44,17 @@ public class Kurt implements Tourist {
           }else{
           System.out.println("\nWelcome to Palawan!"); 
           visit(); 
+          System.out.println("____________________________________________");
           }
           System.out.println("\nVisiting another place...");    
+          System.out.println("____________________________________________");
     }
 
     public void visit(Batanes batanes) {
         fare = batanes.airFare;        
         if(budget < fare){
-            System.out.println("\nCan't afford the airfare to Batanes");
+            System.out.println("\n**Can't afford the airfare to Batanes**");
+            System.out.println("____________________________________________");
             if(budget == 0){
                 System.out.println("OUT OF FUNDS X_X");
                 System.exit(0);
@@ -56,14 +62,17 @@ public class Kurt implements Tourist {
           }else{
           System.out.println("\nWelcome to Batanes!");  
           visit();  
+          System.out.println("____________________________________________");
           }
           System.out.println("\nVisiting another place...");    
+          System.out.println("____________________________________________");
     }
 
     public void visit(Cebu cebu) {
         fare = cebu.airFare;      
         if(budget < fare){
-            System.out.println("\nCan't afford the airfare to Cebu");
+            System.out.println("\n**Can't afford the airfare to Cebu**");
+            System.out.println("____________________________________________");
             if(budget == 0){
                 System.out.println("OUT OF FUNDS X_X"); 
                 System.exit(0);
@@ -71,14 +80,17 @@ public class Kurt implements Tourist {
           }else{
           System.out.println("\nWelcome to Cebu!");  
           visit();  
+          System.out.println("____________________________________________");
           }
-          System.out.println("\nVisiting another place...");    
+          System.out.println("\nVisiting another place...");  
+          System.out.println("____________________________________________");  
     }
 
     public void visit(Intramuros intramuros) {
         fare = intramuros.airFare;       
         if(budget < fare){
-            System.out.println("\nCan't afford the airfare to Intramuros");
+            System.out.println("\n**Can't afford the airfare to Intramuros**");
+            System.out.println("____________________________________________");
             if(budget == 0){
                 System.out.println("OUT OF FUNDS X_X");
                 System.exit(0);
@@ -86,14 +98,17 @@ public class Kurt implements Tourist {
           }else{
           System.out.println("\nWelcome to Intramuros!");  
           visit();  
+          System.out.println("____________________________________________");
           };
-          System.out.println("\nVisiting another place...");    
+          System.out.println("\nVisiting another place..."); 
+          System.out.println("____________________________________________");   
     }
 
     public void visit(Siargao siargao) {
         fare = siargao.airFare;
         if(budget < fare){
-            System.out.println("\nCan't afford the airfare to Siargao");
+            System.out.println("\n**Can't afford the airfare to Siargao**");
+            System.out.println("____________________________________________");
             if(budget == 0){
                 System.out.println("OUT OF FUNDS X_X");
                 System.exit(0);
@@ -101,6 +116,7 @@ public class Kurt implements Tourist {
           }else{
           System.out.println("\nWelcome to Siargao!");  
           visit();  
+          System.out.println("____________________________________________");
           }   
     }
 
