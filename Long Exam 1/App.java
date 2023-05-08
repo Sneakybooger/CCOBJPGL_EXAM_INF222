@@ -1,5 +1,5 @@
 import Places.*;
-import Travelerer.*;
+import Travelers.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
